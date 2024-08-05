@@ -12,7 +12,7 @@
 		</classes>
 	</test>
 	<test name="Open Cart Login page Test">
-		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="tests.LoginPageTest" />
 		</classes>
