@@ -18,8 +18,8 @@ public class LoginPageTest extends BaseTest {
 	
 	@Test(priority = 2)
 	public void forgotPwdLinkExistTest() {
-		//Assert.assertTrue(loginPage.isForgotPwdLinkExist());
-		Assert.assertFalse(loginPage.isForgotPwdLinkExist());
+		Assert.assertTrue(loginPage.isForgotPwdLinkExist());
+		//Assert.assertFalse(loginPage.isForgotPwdLinkExist());
 	}
 
 	@Test(priority = 3)
